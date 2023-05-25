@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/txtresultado"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:backgroundTint="#F3F1F1"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnsoma"
+        android:layout_width="148dp"
+        android:layout_height="72dp"
+        android:layout_marginBottom="200dp"
+        android:hint="@string/app_btnsoma"
+        android:textColorHighlight="#F6F0F0"
+        android:textColorHint="#F4EFEF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnsub" />
+
+    <Button
+        android:id="@+id/btnsub"
+        android:layout_width="148dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="24dp"
+        android:hint="@string/app_subtracao"
+        android:textColorHint="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtresult" />
+
+    <EditText
+        android:id="@+id/txtnum1"
+        android:layout_width="207dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="102dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="102dp"
+        android:layout_marginBottom="20dp"
+        android:ems="10"
+        android:hint="@string/app_email"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/txtnum2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.142" />
+
+    <TextView
+        android:id="@+id/txtresult"
+        android:layout_width="122dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="400dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtnum2"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <EditText
+        android:id="@+id/txtnum2"
+        android:layout_width="205dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="388dp"
+        android:layout_marginEnd="102dp"
+        android:ems="10"
+        android:hint="@string/app_tela"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/txtnum1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.65" />
+
+    <Button
+        android:id="@+id/btnmulti"
+        android:layout_width="149dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="636dp"
+        android:layout_marginEnd="125dp"
+        android:layout_marginBottom="47dp"
+        android:hint="@string/app_multiplicacao"
+        android:textColorHint="#F6F4F4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.909" />
+
+    <Button
+        android:id="@+id/btndiv"
+        android:layout_width="146dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="210dp"
+        android:layout_marginTop="530dp"
+        android:layout_marginEnd="130dp"
+        android:layout_marginBottom="2dp"
+        android:hint="@string/app_divisao"
+        android:textColor="#F3EFEF"
+        android:textColorHint="#F8F0F0"
+        app:layout_constraintBottom_toTopOf="@+id/btnmulti"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.946"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.661" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

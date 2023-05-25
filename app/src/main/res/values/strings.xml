@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Teste - Aula</string>
+    <string name="app_teste">Digite sua senha </string>
+    <string name="app_tela">Digite outro número</string>
+    <string name="app_email">Digite um número</string>
+    <string name="app_btn">Calcular</string>
+    <string name="app_btnsoma">Soma</string>
+    <string name="app_subtracao">Subtração</string>
+    <string name="app_multiplicacao">Multiplicação</string>
+    <string name="app_divisao">Divisão</string>
+</resources>
